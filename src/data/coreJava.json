@@ -1,0 +1,511 @@
+{
+    "id": 3,
+    "name": "Core Java",
+    "description": "Foundational Concepts of Java.",
+    "questions": [
+        {
+            "id": 1010,
+            "name": "A process that involves recognizing and focusing on the important characteristics of a situation or object is known as:",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "Encapsulation",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": "Polymorphism",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "Abstraction",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1058,
+                    "questionId": 1010,
+                    "name": "Inheritance",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1059,
+                    "questionId": 1010,
+                    "name": "Object persistence",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1011,
+            "name": "Which statement is true regarding an object?",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1011,
+                    "name": "An object is what classes instantiated are from",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1011,
+                    "name": "An object is an instance of a class",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1011,
+                    "name": "An object is a variable",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1058,
+                    "questionId": 1011,
+                    "name": "An object is a reference to an attribute",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1059,
+                    "questionId": 1011,
+                    "name": "An object is not an instance of a class.",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1012,
+            "name": "In object-oriented programming, composition relates to",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1012,
+                    "name": "The use of consistent coding conventions",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1012,
+                    "name": "The organization of components interacting to achieve a coherent, common behavior",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1012,
+                    "name": "The use of inheritance to achieve polymorphic behavior",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1058,
+                    "questionId": 1012,
+                    "name": "The organization of components interacting not to achieve a coherent common behavior",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1059,
+                    "questionId": 1012,
+                    "name": "The use of data hiding to achieve polymorphic behavior",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1013,
+            "name": "In object-oriented programming, new classes can be defined by extending existing classes. This is an example of:",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1013,
+                    "name": "Encapsulation",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1013,
+                    "name": "Interface",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1013,
+                    "name": "Composition",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1058,
+                    "questionId": 1013,
+                    "name": "Inheritance",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1059,
+                    "questionId": 1013,
+                    "name": "Aggregation",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1014,
+            "name": "Which of the following does not belong: If a class inherits from some other class, it should",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1014,
+                    "name": "Make use of the parent class’s capabilities",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1014,
+                    "name": "Over-ride or add the minimum to accomplish the derived class’ purpose",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1014,
+                    "name": "Over-ride all the methods of its parent class",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1058,
+                    "questionId": 1014,
+                    "name": "Make sure the result “IS-A-KIND-OF” its base class",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1059,
+                    "questionId": 1014,
+                    "name": "Make sure the result “contains” its base class",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1015,
+            "name": "Object-oriented inheritance models the",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1015,
+                    "name": "“is a kind of” relationship",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1015,
+                    "name": "“has a” relationship",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1015,
+                    "name": "“want to be” relationship",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1058,
+                    "questionId": 1015,
+                    "name": "inheritance does not describe any kind of relationship between classes",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1059,
+                    "questionId": 1015,
+                    "name": "“contains” of relationship.",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1016,
+            "name": "The wrapping up of data and functions into a single unit is called",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1016,
+                    "name": "Encapsulation",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1016,
+                    "name": "Abstraction",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1016,
+                    "name": "Data Hiding",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1058,
+                    "questionId": 1016,
+                    "name": "Polymorphism",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1059,
+                    "questionId": 1016,
+                    "name": "Message passing",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1017,
+            "name": "Polymorphism",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1017,
+                    "name": "Is not supported by Java",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1017,
+                    "name": "Refers to the ability of two or more objects belonging to different classes to respond to exactly the same message in different class-specific ways",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1017,
+                    "name": "Simplifies code maintenance",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1058,
+                    "questionId": 1017,
+                    "name": "Not simplifies code maintenance",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1059,
+                    "questionId": 1017,
+                    "name": "Refers to the ability of two or more objects belonging to different classes to respond to exactly the same message in different class-specific ways and simplifies code maintenance.",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1018,
+            "name": "In object-oriented programming, new classes can be defined by extending existing classes. This is an example of:",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1018,
+                    "name": "Encapsulation",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1018,
+                    "name": "Interface",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1018,
+                    "name": "Composition",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1058,
+                    "questionId": 1018,
+                    "name": "Inheritance",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1059,
+                    "questionId": 1018,
+                    "name": "Aggregation",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1019,
+            "name": "Given a class named student, which of the following is a valid constructor declaration for the class?",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1019,
+                    "name": "Student (student s) { }",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1019,
+                    "name": "Student student ( ) { }",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1019,
+                    "name": "Private final student ( ) { }",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1058,
+                    "questionId": 1019,
+                    "name": "Void student ( ) { }",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1059,
+                    "questionId": 1019,
+                    "name": "Static void student(){ }",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1020,
+            "name": "What is garbage collection in the context of Java?",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1020,
+                    "name": "The operating system periodically deletes all of the java files available on the system.",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1020,
+                    "name": "Any package imported in a program and not used is automatically deleted.",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1020,
+                    "name": "When all references to an object are gone, the memory used by the object is automatically reclaimed.",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1058,
+                    "questionId": 1020,
+                    "name": "The JVM checks the output of any Java program and deletes anything that doesn’t make sense.",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1059,
+                    "questionId": 1020,
+                    "name": "When all references to an object are gone the memory used by the object is not reclaimed.",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1021,
+            "name": "In Java, declaring a class abstract is useful",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1021,
+                    "name": "To prevent developers from further extending the class",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1021,
+                    "name": "When it doesn’t make sense to have objects of that class",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1021,
+                    "name": "When default implementations of some methods are not desirable",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1058,
+                    "questionId": 1021,
+                    "name": "To force developers to extend the class not to use its capabilities",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1059,
+                    "questionId": 1021,
+                    "name": "When it makes sense to have objects of that class.",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        }
+    ]
+}
